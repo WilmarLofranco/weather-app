@@ -13,10 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "eslint": "^9.17.0",
+    "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
     "prettier": "3.4.2",
     "style-loader": "^4.0.0",
@@ -42,9 +42,16 @@
       "sourceType": "module"
     },
     "rules": {
-      "semi": ["error", "always"],
-      "quotes": ["error", "single"],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
       "no-console": "off"
     }
-  }
+  },
+  "description": ""
 }

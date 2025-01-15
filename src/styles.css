@@ -211,3 +211,23 @@ Add the correct display in Chrome and Safari.
 summary {
 	display: list-item;
 }
+
+/* MY OWN STYLING */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#weather-img {
+	position: relative;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weather-description {
+	justify-self: center;
+}
